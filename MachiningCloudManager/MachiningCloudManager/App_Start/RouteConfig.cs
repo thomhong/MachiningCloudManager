@@ -5,6 +5,10 @@ namespace MachiningCloudManager
 {
     public class RouteConfig
     {
+        /// <summary>
+        /// Registers routes
+        /// </summary>
+        /// <param name="routes"></param>
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
