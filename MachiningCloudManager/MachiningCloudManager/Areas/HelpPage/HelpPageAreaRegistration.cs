@@ -13,6 +13,10 @@ namespace MachiningCloudManager.Areas.HelpPage
             }
         }
 
+        /// <summary>
+        /// Register routing
+        /// </summary>
+        /// <param name="context"></param>
         public override void RegisterArea(AreaRegistrationContext context)
         {
             context.MapRoute(
