@@ -170,6 +170,7 @@
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="UIImplementation.cs" />
     <Compile Include="WebServices\Widget20Service.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -21,6 +21,8 @@ namespace MachiningCloudManager.Providers
                 throw new ArgumentNullException("publicClientId");
             }
 
+            Console.WriteLine("sss");
+
             _publicClientId = publicClientId;
         }
 
