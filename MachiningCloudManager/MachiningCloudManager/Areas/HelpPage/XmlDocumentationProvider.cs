@@ -35,11 +35,6 @@ namespace MachiningCloudManager.Areas.HelpPage
             _documentNavigator = xpath.CreateNavigator();
         }
 
-        /// <summary>
-        /// Documentation accessor
-        /// </summary>
-        /// <param name="controllerDescriptor"></param>
-        /// <returns></returns>
         public string GetDocumentation(HttpControllerDescriptor controllerDescriptor)
         {
             XPathNavigator typeNode = GetTypeNode(controllerDescriptor.ControllerType);
